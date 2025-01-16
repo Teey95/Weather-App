@@ -15,20 +15,31 @@
   <body>
     <div class="weatherApp">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a City..." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a City..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-submit" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Tuesday 14:49, scattered clouds <br />
-            Humidity: 66%, Wind 3.13km/h
-          </p>
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-city">Paris</h1>
+            <p class="weather-details">
+              Tuesday 14:49, scattered clouds <br />
+              Humidity: <strong>66%,</strong> Wind <strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div class="weather-container">
+            <div class="weather-icon">⛅</div>
+            <div class="weather-temperature">12</div>
+            <div class="weather-unit">°C</div>
+          </div>
         </div>
-        <div>⛅ 12°C</div>
       </main>
       <footer>
         This project was coded by
