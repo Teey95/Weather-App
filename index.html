@@ -28,15 +28,16 @@
       <main>
         <div class="weather-data">
           <div>
-            <h1 class="weather-city">Paris</h1>
+            <h1 class="weather-city" id="current-city">Paris</h1>
             <p class="weather-details">
-              Tuesday 14:49, scattered clouds <br />
+              <span id="current-date">Tuesday 14:49</span>, scattered clouds
+              <br />
               Humidity: <strong>66%,</strong> Wind <strong>3.13km/h</strong>
             </p>
           </div>
           <div class="weather-container">
             <div class="weather-icon">⛅</div>
-            <div class="weather-temperature">12</div>
+            <div class="weather-temperature" id="current-temp">12</div>
             <div class="weather-unit">°C</div>
           </div>
         </div>
@@ -49,5 +50,7 @@
         <a href="https://weatherappty.netlify.app/"> Netlify</a>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
