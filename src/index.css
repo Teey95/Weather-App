@@ -50,10 +50,10 @@ main {
 }
 
 .weather-details {
-  font-size: 24px;
+  font-size: 17px;
   line-height: 20px;
   color: rgba(39, 33, 66, 0.4);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .weather-details strong {
@@ -70,13 +70,19 @@ main {
 }
 
 .weather-temperature {
-  font-size: 38px;
+  font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
 }
 
 .weather-icon {
   font-size: 44px;
   margin-top: 22px;
+}
+
+.weather-unit {
+  margin-top: 6px;
+  font-size: 28px;
 }
 
 .footer {
