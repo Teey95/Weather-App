@@ -35,13 +35,24 @@ header {
 }
 
 .search-form-submit {
-  background: #a93c01;
+  background-color: #a93c01;
   padding: 15px 30px;
   border: none;
   margin-left: 5px;
   border-radius: 6px;
   color: white;
   font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search-form-submit:active {
+  background-color: #9c3300;
+}
+
+.search-form-submit:hover {
+  background-color: #bf5d00;
+  transform: scale(1.05);
 }
 
 main {
@@ -110,7 +121,7 @@ main {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #a93c01;
   margin-top: 10px;
   display: flex;
   justify-content: center;
